@@ -1,0 +1,136 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header Section's CSS */
+
+.name {
+  font-size: 36px;
+  color: #CACBC6;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: #02CCFC;
+}
+
+.info {
+  color: #999999;
+  margin-top: -26px;
+  font-size: 14px;
+}
+
+.menu {
+  margin-top: -57px;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: end;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 20px;
+  transition: color 0.5s;
+}
+
+.menu ul li a:hover {
+  color: #02CCFC;
+}
+
+.home {
+  color: #02CCFC!important;
+}
+
+hr {
+  border-color: #eee;
+  opacity: 0.3;
+}
+
+span {
+  color: #eee;
+}
+
+
+
+/* Blog Section's CSS */
+
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 33px;
+  margin-top: 30px;
+}
+
+.blog_item {
+  margin-right: 100px;
+}
+
+.blog_item img {
+  border: 1px solid rgb(194, 194, 194);
+  padding: 4px;
+}
+
+.spacer {
+  border-width: 1px;
+  border-color: #eee;
+  opacity: 0.2;
+}
+
+span {
+  color: #606666;
+}
+
+.content {
+  color: #999;
+  width: 383px;
+  font-size: 14px;
+}
+
+/* Gallery Section's CSS */
+.gallery {
+  display : flex;
+  flex-direction: row;
+  gap : 59px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.gallery_img_title {
+  color: #ddd;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+.gallery_image {
+  padding: 4px;
+  border: 1px solid #fff;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.gallery_image:hover {
+  opacity: 0.5;
+}
+
+.copywright_text {
+  color: #ddd;
+  text-align: center;
+  opacity: 0.4;
+  font-size: 12px;
+}
